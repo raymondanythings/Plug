@@ -2,6 +2,14 @@
 const nextConfig = {
   reactStrictMode: true,
   swcMinify: true,
-}
+  images: {
+    unoptimized: true,
+  },
 
-module.exports = nextConfig
+  //  Next13 app dir activate
+  // experimental: {
+  //   appDir: true,
+  // },
+};
+
+module.exports = nextConfig;
