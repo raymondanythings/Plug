@@ -27,7 +27,8 @@
     "paths": {
       "components/*":["components/*"],
       "styles/*":["styles/*"],
-      "libs/*" : ["libs/*"]
+      "libs/*" : ["libs/*"],
+      "assets/*" : ["assets/*"]
     }
   },
   "include": [

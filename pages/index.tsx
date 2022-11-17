@@ -3,8 +3,8 @@ import React from "react";
 
 const index = () => {
   return (
-    <div className="text-teal-500">
-      ??
+    <div className={`text-teal-500`}>
+      ??sdfsdfsdf
       <Test />
     </div>
   );
