@@ -35,6 +35,9 @@ yarn-error.log*
 *.tsbuildinfo
 next-env.d.ts
 
+# assets
+
+assets/font/
 
 # tauri 
 src-tauri/target/
