@@ -1,15 +1,16 @@
 import { useEffect } from "react";
 import tauriStore from "store";
 function useTauri() {
-  const { invoke, invokeInitialize } = tauriStore();
+  const { invoke, invokeInitialize, isMounted } = tauriStore();
   const isClient = typeof window !== "undefined";
   useEffect(() => {
     if (isClient) {
       invokeInitialize();
     }
-  }, [isClient]);
+  }, [isClient, invokeInitialize]);
   return {
     invoke,
+    isMounted,
   };
 }
 

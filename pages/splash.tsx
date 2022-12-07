@@ -6,14 +6,10 @@ const Splash = () => {
   useEffect(() => {
     if (invoke) {
       setTimeout(() => {
-        invoke("close_splashscreen")
-          .then(() => console.log("????"))
-          .catch(() => console.log("ERROR"));
+        invoke("close_splashscreen");
       }, 5000);
     }
-    console.log("==========================ok");
   }, [invoke]);
-  console.log(invoke);
   return <>Splash</>;
 };
 
