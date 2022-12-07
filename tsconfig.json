@@ -28,7 +28,8 @@
       "components/*":["components/*"],
       "styles/*":["styles/*"],
       "libs/*" : ["libs/*"],
-      "assets/*" : ["assets/*"]
+      "assets/*" : ["assets/*"],
+      "store/*" : ["store/*"]
     }
   },
   "include": [
